@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"name": "CatCounter",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"ssd1306_i2c.h": "c",
+			"ch32v003fun.h": "c",
+			"ssd1306.h": "c",
+			"ulwos2ch32.h": "c",
+			"stdio.h": "c",
+			"ulwos2.h": "c",
+			"stdint.h": "c",
+			"ch32v003_flash.h": "c",
+			"os_defines.h": "c",
+			"cocoos.h": "c",
+			"os_port.h": "c",
+			"cstdarg": "c"
+		}
+	}
+}

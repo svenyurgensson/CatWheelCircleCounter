@@ -1,0 +1,56 @@
+[
+    {
+        "command": "C:\\Users\\YuryBatenko\\.platformio\\packages\\toolchain-riscv\\bin\\riscv-none-embed-gcc.exe -o .pio\\build\\genericCH32V003F4P6\\FrameworkCh32v003fun\\ch32v003fun.o -c -std=gnu11 -Os -g -Wall -msmall-data-limit=0 -msave-restore -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -Wunused -Wuninitialized -Wno-comment -march=rv32ecxw -mabi=ilp32e -flto -static-libgcc -nostdlib -DPLATFORMIO=60118 -DCH32V003F4 -DCH32V00X -DCH32V00x -DCH32V003 -DN_TASKS=4 -DN_EVENTS=2 -D__PIO_BUILD_CH32V003FUN__ -IC:\\Users\\YuryBatenko\\.platformio\\packages\\framework-ch32v003fun\\ch32v003fun -IC:\\Users\\YuryBatenko\\.platformio\\packages\\framework-ch32v003fun\\extralibs -Isrc C:\\Users\\YuryBatenko\\.platformio\\packages\\framework-ch32v003fun\\ch32v003fun\\ch32v003fun.c",
+        "directory": "C:\\Users\\YuryBatenko\\Projects\\Electro\\ch32\\CatCounter\\CatCounter",
+        "file": "C:\\Users\\YuryBatenko\\.platformio\\packages\\framework-ch32v003fun\\ch32v003fun\\ch32v003fun.c",
+        "output": ".pio\\build\\genericCH32V003F4P6\\FrameworkCh32v003fun\\ch32v003fun.o"
+    },
+    {
+        "command": "C:\\Users\\YuryBatenko\\.platformio\\packages\\toolchain-riscv\\bin\\riscv-none-embed-gcc.exe -o .pio\\build\\genericCH32V003F4P6\\lib94e\\cocoOS\\os_assert.o -c -std=gnu11 -Os -g -Wall -msmall-data-limit=0 -msave-restore -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -Wunused -Wuninitialized -Wno-comment -march=rv32ecxw -mabi=ilp32e -flto -static-libgcc -nostdlib -DPLATFORMIO=60118 -DCH32V003F4 -DCH32V00X -DCH32V00x -DCH32V003 -DN_TASKS=4 -DN_EVENTS=2 -D__PIO_BUILD_CH32V003FUN__ -I.pio\\libdeps\\genericCH32V003F4P6\\cocoOS\\src -IC:\\Users\\YuryBatenko\\.platformio\\packages\\framework-ch32v003fun\\ch32v003fun -IC:\\Users\\YuryBatenko\\.platformio\\packages\\framework-ch32v003fun\\extralibs -Isrc -I.pio\\libdeps\\genericCH32V003F4P6\\cocoOS\\inc .pio\\libdeps\\genericCH32V003F4P6\\cocoOS\\src\\os_assert.c",
+        "directory": "C:\\Users\\YuryBatenko\\Projects\\Electro\\ch32\\CatCounter\\CatCounter",
+        "file": ".pio\\libdeps\\genericCH32V003F4P6\\cocoOS\\src\\os_assert.c",
+        "output": ".pio\\build\\genericCH32V003F4P6\\lib94e\\cocoOS\\os_assert.o"
+    },
+    {
+        "command": "C:\\Users\\YuryBatenko\\.platformio\\packages\\toolchain-riscv\\bin\\riscv-none-embed-gcc.exe -o .pio\\build\\genericCH32V003F4P6\\lib94e\\cocoOS\\os_cbk.o -c -std=gnu11 -Os -g -Wall -msmall-data-limit=0 -msave-restore -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -Wunused -Wuninitialized -Wno-comment -march=rv32ecxw -mabi=ilp32e -flto -static-libgcc -nostdlib -DPLATFORMIO=60118 -DCH32V003F4 -DCH32V00X -DCH32V00x -DCH32V003 -DN_TASKS=4 -DN_EVENTS=2 -D__PIO_BUILD_CH32V003FUN__ -I.pio\\libdeps\\genericCH32V003F4P6\\cocoOS\\src -IC:\\Users\\YuryBatenko\\.platformio\\packages\\framework-ch32v003fun\\ch32v003fun -IC:\\Users\\YuryBatenko\\.platformio\\packages\\framework-ch32v003fun\\extralibs -Isrc -I.pio\\libdeps\\genericCH32V003F4P6\\cocoOS\\inc .pio\\libdeps\\genericCH32V003F4P6\\cocoOS\\src\\os_cbk.c",
+        "directory": "C:\\Users\\YuryBatenko\\Projects\\Electro\\ch32\\CatCounter\\CatCounter",
+        "file": ".pio\\libdeps\\genericCH32V003F4P6\\cocoOS\\src\\os_cbk.c",
+        "output": ".pio\\build\\genericCH32V003F4P6\\lib94e\\cocoOS\\os_cbk.o"
+    },
+    {
+        "command": "C:\\Users\\YuryBatenko\\.platformio\\packages\\toolchain-riscv\\bin\\riscv-none-embed-gcc.exe -o .pio\\build\\genericCH32V003F4P6\\lib94e\\cocoOS\\os_event.o -c -std=gnu11 -Os -g -Wall -msmall-data-limit=0 -msave-restore -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -Wunused -Wuninitialized -Wno-comment -march=rv32ecxw -mabi=ilp32e -flto -static-libgcc -nostdlib -DPLATFORMIO=60118 -DCH32V003F4 -DCH32V00X -DCH32V00x -DCH32V003 -DN_TASKS=4 -DN_EVENTS=2 -D__PIO_BUILD_CH32V003FUN__ -I.pio\\libdeps\\genericCH32V003F4P6\\cocoOS\\src -IC:\\Users\\YuryBatenko\\.platformio\\packages\\framework-ch32v003fun\\ch32v003fun -IC:\\Users\\YuryBatenko\\.platformio\\packages\\framework-ch32v003fun\\extralibs -Isrc -I.pio\\libdeps\\genericCH32V003F4P6\\cocoOS\\inc .pio\\libdeps\\genericCH32V003F4P6\\cocoOS\\src\\os_event.c",
+        "directory": "C:\\Users\\YuryBatenko\\Projects\\Electro\\ch32\\CatCounter\\CatCounter",
+        "file": ".pio\\libdeps\\genericCH32V003F4P6\\cocoOS\\src\\os_event.c",
+        "output": ".pio\\build\\genericCH32V003F4P6\\lib94e\\cocoOS\\os_event.o"
+    },
+    {
+        "command": "C:\\Users\\YuryBatenko\\.platformio\\packages\\toolchain-riscv\\bin\\riscv-none-embed-gcc.exe -o .pio\\build\\genericCH32V003F4P6\\lib94e\\cocoOS\\os_kernel.o -c -std=gnu11 -Os -g -Wall -msmall-data-limit=0 -msave-restore -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -Wunused -Wuninitialized -Wno-comment -march=rv32ecxw -mabi=ilp32e -flto -static-libgcc -nostdlib -DPLATFORMIO=60118 -DCH32V003F4 -DCH32V00X -DCH32V00x -DCH32V003 -DN_TASKS=4 -DN_EVENTS=2 -D__PIO_BUILD_CH32V003FUN__ -I.pio\\libdeps\\genericCH32V003F4P6\\cocoOS\\src -IC:\\Users\\YuryBatenko\\.platformio\\packages\\framework-ch32v003fun\\ch32v003fun -IC:\\Users\\YuryBatenko\\.platformio\\packages\\framework-ch32v003fun\\extralibs -Isrc -I.pio\\libdeps\\genericCH32V003F4P6\\cocoOS\\inc .pio\\libdeps\\genericCH32V003F4P6\\cocoOS\\src\\os_kernel.c",
+        "directory": "C:\\Users\\YuryBatenko\\Projects\\Electro\\ch32\\CatCounter\\CatCounter",
+        "file": ".pio\\libdeps\\genericCH32V003F4P6\\cocoOS\\src\\os_kernel.c",
+        "output": ".pio\\build\\genericCH32V003F4P6\\lib94e\\cocoOS\\os_kernel.o"
+    },
+    {
+        "command": "C:\\Users\\YuryBatenko\\.platformio\\packages\\toolchain-riscv\\bin\\riscv-none-embed-gcc.exe -o .pio\\build\\genericCH32V003F4P6\\lib94e\\cocoOS\\os_msgqueue.o -c -std=gnu11 -Os -g -Wall -msmall-data-limit=0 -msave-restore -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -Wunused -Wuninitialized -Wno-comment -march=rv32ecxw -mabi=ilp32e -flto -static-libgcc -nostdlib -DPLATFORMIO=60118 -DCH32V003F4 -DCH32V00X -DCH32V00x -DCH32V003 -DN_TASKS=4 -DN_EVENTS=2 -D__PIO_BUILD_CH32V003FUN__ -I.pio\\libdeps\\genericCH32V003F4P6\\cocoOS\\src -IC:\\Users\\YuryBatenko\\.platformio\\packages\\framework-ch32v003fun\\ch32v003fun -IC:\\Users\\YuryBatenko\\.platformio\\packages\\framework-ch32v003fun\\extralibs -Isrc -I.pio\\libdeps\\genericCH32V003F4P6\\cocoOS\\inc .pio\\libdeps\\genericCH32V003F4P6\\cocoOS\\src\\os_msgqueue.c",
+        "directory": "C:\\Users\\YuryBatenko\\Projects\\Electro\\ch32\\CatCounter\\CatCounter",
+        "file": ".pio\\libdeps\\genericCH32V003F4P6\\cocoOS\\src\\os_msgqueue.c",
+        "output": ".pio\\build\\genericCH32V003F4P6\\lib94e\\cocoOS\\os_msgqueue.o"
+    },
+    {
+        "command": "C:\\Users\\YuryBatenko\\.platformio\\packages\\toolchain-riscv\\bin\\riscv-none-embed-gcc.exe -o .pio\\build\\genericCH32V003F4P6\\lib94e\\cocoOS\\os_sem.o -c -std=gnu11 -Os -g -Wall -msmall-data-limit=0 -msave-restore -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -Wunused -Wuninitialized -Wno-comment -march=rv32ecxw -mabi=ilp32e -flto -static-libgcc -nostdlib -DPLATFORMIO=60118 -DCH32V003F4 -DCH32V00X -DCH32V00x -DCH32V003 -DN_TASKS=4 -DN_EVENTS=2 -D__PIO_BUILD_CH32V003FUN__ -I.pio\\libdeps\\genericCH32V003F4P6\\cocoOS\\src -IC:\\Users\\YuryBatenko\\.platformio\\packages\\framework-ch32v003fun\\ch32v003fun -IC:\\Users\\YuryBatenko\\.platformio\\packages\\framework-ch32v003fun\\extralibs -Isrc -I.pio\\libdeps\\genericCH32V003F4P6\\cocoOS\\inc .pio\\libdeps\\genericCH32V003F4P6\\cocoOS\\src\\os_sem.c",
+        "directory": "C:\\Users\\YuryBatenko\\Projects\\Electro\\ch32\\CatCounter\\CatCounter",
+        "file": ".pio\\libdeps\\genericCH32V003F4P6\\cocoOS\\src\\os_sem.c",
+        "output": ".pio\\build\\genericCH32V003F4P6\\lib94e\\cocoOS\\os_sem.o"
+    },
+    {
+        "command": "C:\\Users\\YuryBatenko\\.platformio\\packages\\toolchain-riscv\\bin\\riscv-none-embed-gcc.exe -o .pio\\build\\genericCH32V003F4P6\\lib94e\\cocoOS\\os_task.o -c -std=gnu11 -Os -g -Wall -msmall-data-limit=0 -msave-restore -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -Wunused -Wuninitialized -Wno-comment -march=rv32ecxw -mabi=ilp32e -flto -static-libgcc -nostdlib -DPLATFORMIO=60118 -DCH32V003F4 -DCH32V00X -DCH32V00x -DCH32V003 -DN_TASKS=4 -DN_EVENTS=2 -D__PIO_BUILD_CH32V003FUN__ -I.pio\\libdeps\\genericCH32V003F4P6\\cocoOS\\src -IC:\\Users\\YuryBatenko\\.platformio\\packages\\framework-ch32v003fun\\ch32v003fun -IC:\\Users\\YuryBatenko\\.platformio\\packages\\framework-ch32v003fun\\extralibs -Isrc -I.pio\\libdeps\\genericCH32V003F4P6\\cocoOS\\inc .pio\\libdeps\\genericCH32V003F4P6\\cocoOS\\src\\os_task.c",
+        "directory": "C:\\Users\\YuryBatenko\\Projects\\Electro\\ch32\\CatCounter\\CatCounter",
+        "file": ".pio\\libdeps\\genericCH32V003F4P6\\cocoOS\\src\\os_task.c",
+        "output": ".pio\\build\\genericCH32V003F4P6\\lib94e\\cocoOS\\os_task.o"
+    },
+    {
+        "command": "C:\\Users\\YuryBatenko\\.platformio\\packages\\toolchain-riscv\\bin\\riscv-none-embed-gcc.exe -o .pio\\build\\genericCH32V003F4P6\\src\\main.o -c -std=gnu11 -Os -g -Wall -msmall-data-limit=0 -msave-restore -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -Wunused -Wuninitialized -Wno-comment -march=rv32ecxw -mabi=ilp32e -flto -static-libgcc -nostdlib -DPLATFORMIO=60118 -DCH32V003F4 -DCH32V00X -DCH32V00x -DCH32V003 -DN_TASKS=4 -DN_EVENTS=2 -D__PIO_BUILD_CH32V003FUN__ -Iinclude -Isrc -I.pio\\libdeps\\genericCH32V003F4P6\\cocoOS\\src -I.pio\\libdeps\\genericCH32V003F4P6\\cocoOS\\inc -IC:\\Users\\YuryBatenko\\.platformio\\packages\\framework-ch32v003fun\\ch32v003fun -IC:\\Users\\YuryBatenko\\.platformio\\packages\\framework-ch32v003fun\\extralibs -Isrc src\\main.c",
+        "directory": "C:\\Users\\YuryBatenko\\Projects\\Electro\\ch32\\CatCounter\\CatCounter",
+        "file": "src\\main.c",
+        "output": ".pio\\build\\genericCH32V003F4P6\\src\\main.o"
+    }
+]

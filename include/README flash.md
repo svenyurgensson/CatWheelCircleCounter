@@ -1,5 +1,7 @@
 # CH32V003 Flash Memory Storage 
 
+[Repository](https://github.com/invariablyafk/CH32V-FlashStorage/tree/master)
+
 Tired of losing those precious user config settings every time the power blinks? Fear not, you can now save them without needing an extra flash chip!
 
 This library lets you tame the flash memory in your CH32V003 microcontroller. It's like a digital safe for your non-volatile settings, but remember, this safe has a limited number of uses (10,000 to be exact). For heavy-duty use, consider getting an external flash chip for added durability.
