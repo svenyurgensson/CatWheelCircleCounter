@@ -16,6 +16,10 @@ Build with [Platformio](https://docs.platformio.org/en/latest/) and [ch32fun](ht
 
 Internally it used [CocoOS OS](https://www.cocoos.net/) coroutine library, slightly modified for my needs.
 
+## Finished Cat Wheel Counter
+
+![Unit at the work](docs/unit.png)
+
 ## License
 
 Distributed under the MIT License. See [LICENSE.txt](LICENSE.txt) for more information.

@@ -33,19 +33,20 @@ void maybe_save_counter(void)
 
 // Tasks
 
-// Detect hall sygnal task
+// Detect hall signal task
 // Increments wheel counter
 void Task_HallSensor(void) 
 {
     task_open();
 
-    while (true) {
-        while(funDigitalRead(HALL) == 1) {
+    while (true) 
+    {
+        while(funDigitalRead(HALL) == 1) 
             task_wait( 1 );
-        }
-        while(funDigitalRead(HALL) == 0) {
+        
+        while(funDigitalRead(HALL) == 0) 
             task_wait( 1 );
-        }
+        
 
         counter++; 
 
@@ -67,12 +68,14 @@ void Task_DisplayCounter(void)
     char buffer[8];
     task_open();
 
-    if (!ssd1306_i2c_init()) {
+    if (!ssd1306_i2c_init()) 
+    {
 		ssd1306_init();		
         ssd1306_setbuf(0);  
     }
 
-    while (true) {
+    while (true) 
+    {
         sprintf(buffer, "%06d\0", counter);
         ssd1306_drawstr_sz(0, 16, buffer, 1, fontsize_16x16);
         ssd1306_refresh();	
@@ -88,10 +91,12 @@ void Task_DisplayCounter(void)
 void Task_DisplaySleep(void) 
 {
     task_open();
+    
     ssd1306_cmd(SSD1306_DISPLAYON);
     static bool display_on = true;
 
-    while (true) { 
+    while (true) 
+    { 
         printf("[SLEEP] Display sleep task waiting for event or timeout!\n");           
         event_wait_timeout(evt_display_wakeup, TIMEOUT_GO_TO_SLEEP); // wait event or some timeout
 
@@ -130,7 +135,8 @@ void Task_Keyboard(void)
     button_press_time = systick_millis;
     static bool button_pressed = false;
 
-    while(true) {
+    while(true) 
+    {
         task_wait( 10 );
 
         bool button_state = funDigitalRead(BUTTON); // true - pressed
@@ -144,7 +150,8 @@ void Task_Keyboard(void)
             uint32_t button_release_time = systick_millis;
             uint32_t press_duration = button_release_time - button_press_time;
 
-            if (press_duration > 100) {
+            if (press_duration > 100) 
+            {
                 // Определяем тип нажатия
                 if (press_duration > 5000)
                 {
@@ -153,9 +160,7 @@ void Task_Keyboard(void)
                     counter = 0;
                     maybe_save_counter();  
                     event_signal( evt_wheel_sensor ); // fake event to update display
-                } 
-                else
-                {
+                } else {
                     printf("[KEYBD] pressed short\n");
                 }
                 event_signal( evt_display_wakeup );
