@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"ch32v003_flash.h": "c",
+			"stdio.h": "c"
+		}
+	}
+}

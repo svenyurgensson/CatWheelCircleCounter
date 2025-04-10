@@ -1,0 +1,60 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/Users/jurbat/projects/ElectroProjects/ch32/CatCounter/CatCounter/include",
+                "/Users/jurbat/projects/ElectroProjects/ch32/CatCounter/CatCounter/src",
+                "/Users/jurbat/projects/ElectroProjects/ch32/CatCounter/CatCounter/.pio/libdeps/genericCH32V003F4P6/cocoOS/src",
+                "/Users/jurbat/projects/ElectroProjects/ch32/CatCounter/CatCounter/.pio/libdeps/genericCH32V003F4P6/cocoOS/inc",
+                "/Users/jurbat/.platformio/packages/framework-ch32v003fun/ch32fun",
+                "/Users/jurbat/.platformio/packages/framework-ch32v003fun/extralibs",
+                "/Users/jurbat/projects/ElectroProjects/ch32/CatCounter/CatCounter/lib/cocoOS/src",
+                "/Users/jurbat/projects/ElectroProjects/ch32/CatCounter/CatCounter/lib/cocoOS/inc",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/Users/jurbat/projects/ElectroProjects/ch32/CatCounter/CatCounter/include",
+                    "/Users/jurbat/projects/ElectroProjects/ch32/CatCounter/CatCounter/src",
+                    "/Users/jurbat/projects/ElectroProjects/ch32/CatCounter/CatCounter/.pio/libdeps/genericCH32V003F4P6/cocoOS/src",
+                    "/Users/jurbat/projects/ElectroProjects/ch32/CatCounter/CatCounter/.pio/libdeps/genericCH32V003F4P6/cocoOS/inc",
+                    "/Users/jurbat/.platformio/packages/framework-ch32v003fun/ch32fun",
+                    "/Users/jurbat/.platformio/packages/framework-ch32v003fun/extralibs",
+                    "/Users/jurbat/projects/ElectroProjects/ch32/CatCounter/CatCounter/lib/cocoOS/src",
+                    "/Users/jurbat/projects/ElectroProjects/ch32/CatCounter/CatCounter/lib/cocoOS/inc",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60118",
+                "CH32V003F4",
+                "CH32V00X",
+                "CH32V00x",
+                "CH32V003",
+                "N_TASKS=4",
+                "N_EVENTS=2",
+                "NASSERT=1",
+                "__PIO_BUILD_CH32V003FUN__",
+                ""
+            ],
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++17",
+            "compilerPath": "/Users/jurbat/.platformio/packages/toolchain-riscv/bin/riscv-none-embed-gcc",
+            "compilerArgs": [
+                "-msmall-data-limit=0",
+                "-msave-restore",
+                "-march=rv32ecxw",
+                "-mabi=ilp32e",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

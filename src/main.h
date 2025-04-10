@@ -4,8 +4,19 @@
 #include <stdio.h>
 #include <stdbool.h>
 
+#if (defined(FUNCONF_USE_DEBUGPRINTF) && (FUNCONF_USE_DEBUGPRINTF)) || (defined(FUNCONF_USE_UARTPRINTF) && (FUNCONF_USE_UARTPRINTF))
+    #define CONFIG_DEBUG_ENABLE_LOGS (0)
+    #pragma message("---WITH PRINT!---")
+#else
+    #define CONFIG_DEBUG_ENABLE_LOGS (1)
+    #pragma message("---NO PRINT!---")
+#endif
+
+
+#include "log.h"
+
+
 typedef uint32_t Mem_t;
-void SetupDebugPrintf(void);
 
 // : maximum number of tasks (0-254, default=1)
 // currently set in platformio.ini
@@ -43,7 +54,7 @@ VSS (GND)   -> 7
 
 static int16_t counter = 0;
 
-#define TIMEOUT_GO_TO_SLEEP (50000)
+#define TIMEOUT_GO_TO_SLEEP (FUNCONF_SYSTEM_CORE_CLOCK/960)
 
 //
 static uint8_t task_hall_sensor;
