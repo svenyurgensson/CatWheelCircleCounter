@@ -187,8 +187,7 @@ int main(void)
 	RCC->APB2PCENR |= RCC_AFIOEN;
 
 	// assign pin 3,5 interrupt from portD (0b11) to EXTI channel 2
-    #pragma GCC diagnostic ignored "-Wshift-count-overflow"
-	AFIO->EXTICR |= (uint32_t)((0b11 << (HALL*2)) | (0b11 << (BUTTON*2)));
+	AFIO->EXTICR |= (uint32_t)((0b11 << (3*2)) | (0b11 << (5*2)));
 
 	// enable line2 interrupt event
 	EXTI->EVENR |= EXTI_Line5 | EXTI_Line3;
